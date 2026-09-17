@@ -1,0 +1,2 @@
+# xcframework 내부 바이너리는 용량이 크므로 Git LFS 로 관리
+Frameworks/** filter=lfs diff=lfs merge=lfs -text
