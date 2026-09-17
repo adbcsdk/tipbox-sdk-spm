@@ -18,7 +18,7 @@ let package = Package(
         .binaryTarget(
             name: "UnityAds",
             url: "https://github.com/adbcsdk/tipbox-sdk-spm/releases/download/1.0.1/UnityAds.xcframework.zip",
-            checksum: "b2a24b88c463ec0923e9d05540eeff8fae90993224757642ea0f44974b8f8533"
+            checksum: "b7b67b628f85037b60a3bda65942a53b95e50fda0b990a9b22c23ca15c548929"
         ),
         .target(
             name: "TipBoxSDK",
