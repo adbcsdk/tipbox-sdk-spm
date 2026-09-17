@@ -14,7 +14,8 @@ let package = Package(
         .target(
             name: "TipBoxSDK",
             dependencies: ["TipBoxSDKCore", "UnityAds"],
-            path: "Sources/TipBoxSDK"
+            path: "Sources/TipBoxSDK",
+            resources: [ .process("PrivacyInfo.xcprivacy") ]
         )
     ]
 )
