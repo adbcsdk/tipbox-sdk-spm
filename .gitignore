@@ -1,3 +1,5 @@
 # 배포용 zip(=GitHub Release 자산)은 레포에 커밋하지 않는다. (Release 로 업로드)
 dist/
 .DS_Store
+.build/
+.swiftpm/
