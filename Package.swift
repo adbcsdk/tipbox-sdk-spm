@@ -1,6 +1,6 @@
 // swift-tools-version:5.9
 // 이 파일은 scripts/package-ios-spm-manual.sh 로 자동 생성됩니다. (수동 편집 금지)
-// SPM 버전 = git tag (1.0.3). 코어 바이너리는 GitHub Release 자산에서 내려받고,
+// SPM 버전 = git tag (1.0.4). 코어 바이너리는 GitHub Release 자산에서 내려받고,
 // 광고 SDK(애드팝콘 + 미디에이션, Unity 포함)는 디펜던시로 함께 설치됩니다.
 //
 // 매체 사용:  import TipBoxSDKCore   →  TipBoxSdkIos.shared.start(...) 등
@@ -23,8 +23,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TipBoxSDKCore",
-            url: "https://github.com/adbcsdk/tipbox-sdk-spm/releases/download/1.0.3/TipBoxSDKCore.xcframework.zip",
-            checksum: "e2e5666d610a0e3ddf4af05b3570f748d5cd5aef8ea39c37552ee5f0aa3c6c09"
+            url: "https://github.com/adbcsdk/tipbox-sdk-spm/releases/download/1.0.4/TipBoxSDKCore.xcframework.zip",
+            checksum: "0ff96a25335070af10717651f986b674f1d5d990a20d30db367deb8f7ed08c2c"
         ),
         .target(
             name: "TipBoxSDK",
